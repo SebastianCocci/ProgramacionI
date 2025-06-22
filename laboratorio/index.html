@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackJack</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <header>Blackjack</header>
+  <div class="container">
+    <div class="controls">
+      <button id="btnNuevo" class="nuevo">Nuevo Juego</button>
+      <button id="btnPedir" class="pedir">Pedir carta</button>
+      <button id="btnDetener" class="detener">Detener</button>
+    </div>
+
+    <div class="juego">
+      <div class="jugador">
+        <h2>Jugador 1 - <span class="puntosJugador">0</span></h2>
+        <div id="jugadorCartas" class="cartas">
+          <!-- Aqui va la imagen. -->
+        </div>
+      </div>
+
+      <div class="computadora">
+        <h2>Computadora - <span class="puntosComputadora">0</span></h2>
+        <div id="computadoraCartas" class="cartas">
+          <!-- Aqui va la imagen. -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.7/underscore-min.js"></script>
+  <script src="assets/js/laboratorio.js"></script>
+</body>
+
+</html>
